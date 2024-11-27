@@ -1,0 +1,283 @@
+@use './../../../assets/styles/scss/' as *;
+.header {
+  width: 100%;
+  height: 109vh;
+  position: relative;
+  @include lap {
+    height: auto;
+  }
+
+  &__wrapper {
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    @include tablet {
+      display: block !important;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+    &--left {
+      // max-width: 60%;
+      // flex: 0 60% 60%;
+      text-align: center;
+      height: 100%;
+      margin-top: 25vh;
+      @include tablet {
+        max-width: 100%;
+        flex: 0 100% 100%;
+        height: auto;
+        margin-top: 10vh;
+        padding: 0 2rem;
+      }
+      > div {
+        width: 100%;
+      }
+      &-name {
+        font-size: 4.2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: var(--main-color);
+        line-height: 4.7rem;
+        font-family: 'TiltPrism';
+        @media only screen and (max-width: 1056px) {
+          font-size: 3.7rem;
+        }
+        @include mobile {
+          font-size: 3.2rem;
+          line-height: 3.5rem;
+        }
+      }
+      &-info {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: var(--title-color);
+        @include mobile {
+          font-size: 2rem;
+        }
+      }
+      &-actionButton {
+        margin-top: 1rem;
+        @include flex(center, center);
+        gap: 15px;
+        .btn {
+          width: 200px;
+          padding: 0.3rem 0;
+          border-radius: 20px;
+          font-size: 1.2rem;
+          background: transparent;
+          line-height: 1.7rem;
+          @include mobile {
+            width: 140px;
+          }
+        }
+        .btn__download {
+          border: 2px solid var(--title-color);
+          color: var(--title-color);
+        }
+        .btn__let-talk {
+          border: 2px solid var(--main-color);
+          color: var(--main-color);
+        }
+      }
+    }
+    &--right {
+      // max-width: 40%;
+      // flex: 0 40% 40%;
+      text-align: center;
+      @include tablet {
+        max-width: 100%;
+        flex: 0 100% 100%;
+      }
+      &-avatar {
+        position: relative;
+        margin: auto;
+        margin-top: 5vh;
+        margin-bottom: 3vh;
+        width: 25vw;
+        height: 30vh;
+        @media only screen and (max-height: 1200px) {
+          height: 30vw;
+        }
+        @include tablet {
+          margin-top: 8vh;
+          width: 55vw;
+          height: 60vw;
+        }
+        &_bg {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100%;
+          height: 100%;
+          // background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+          animation: bubble 5s linear infinite;
+          border-radius: 32% 46% 52% 18% / 32% 22% 46% 38%;
+          border: 1px solid #582358;
+          animation: animate 5s infinite;
+        }
+        &_image {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 90%;
+          height: 90%;
+          background: url(https://portfolio-sunharry198.vercel.app/static/media/avatar.43fea6f8113605e7315d.jpg);
+          background-position: 50%;
+          background-size: cover;
+          animation: bubble 5s linear infinite;
+          border-radius: 22% 40% 32% 30% / 32% 36% 23% 28%;
+          border: 1px solid #34ace0;
+          animation: animatee 5s infinite;
+        }
+      }
+
+      &-image {
+        width: 70%;
+        margin: auto;
+        img {
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+  &__background-footer {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 100%;
+    @include lap {
+      display: none;
+    }
+  }
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    border-radius: 49% 46% 52% 28% / 42% 22% 46% 38%;
+  }
+  33% {
+    border-radius: 52% 26% 54% 43% / 42% 36% 73% 48%;
+  }
+  66% {
+    border-radius: 26% 62% 34% 60% / 28% 58% 33% 53%;
+  }
+}
+
+@keyframes animatee {
+  0%,
+  100% {
+    border-radius: 22% 40% 32% 30% / 32% 36% 23% 28%;
+  }
+  33% {
+    border-radius: 26% 46% 28% 37% / 28% 47% 30% 45%;
+  }
+  66% {
+    border-radius: 46% 28% 46% 27% / 43% 20% 31% 39%;
+  }
+}
+
+// TODO Animation load
+.header__background-footer {
+  transform: translateY(100px);
+  opacity: 0;
+  animation: toTop 0.5s forwards ease-out;
+}
+.header__wrapper--left-info,
+.header__wrapper--left-name {
+  transform: translateY(50px);
+  opacity: 0;
+}
+.header__wrapper--left-info {
+  animation: toTop2 0.4s 0.75s forwards ease-out;
+}
+.header__wrapper--left-name {
+  animation: toTop2 0.4s 0.5s forwards ease-out;
+}
+.btn__download {
+  transform: translateX(-50px);
+  opacity: 0;
+  animation: toLeft 0.45s 0.75s forwards ease-out;
+}
+.btn__let-talk {
+  transform: translateX(50px);
+  opacity: 0;
+  animation: toRight 0.45s 0.75s forwards ease-out;
+}
+
+.header__wrapper--right-avatar {
+  transform: translateX(150px);
+  opacity: 0;
+  animation: toTop3 0.6s 0.75s forwards ease-out;
+}
+
+.header__wrapper--right-image {
+  transform: translateY(50px);
+  opacity: 0;
+  animation: toTop2 0.4s 0.5s forwards ease-in;
+}
+
+@keyframes toTop {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes toTop2 {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(-5px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes toLeft {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes toRight {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes toTop3 {
+  0% {
+    transform: translateY(150px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(-8px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
