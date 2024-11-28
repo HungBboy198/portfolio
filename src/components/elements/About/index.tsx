@@ -35,8 +35,8 @@ const About = (props: aboutProps) => {
             <div className={styles['about__right--content']}>
               <div>
                 Good day, everyone! I'm Tran Van Hung, I'm 26 years old and I'm
-                from DakLak. I'm Junior Front-end Developer. I have more than 2
-                year experience of working as a web developer at HCMC.
+                from DakLak. I'm Junior Front-end Developer. I have 2 year
+                experience of working as a web developer at HCMC.
               </div>
               <div>
                 I'm often praised for my creativity and independent working
