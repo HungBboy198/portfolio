@@ -71,15 +71,11 @@ const Experience = (props: ExperienceProps) => {
                   </section>
                   <ul>
                     <li>
-                      <article>Main responsibilities:</article>- Convert .psd
-                      files, .ai files to HTML/CSS/JS, responsive.
+                      <article>Main responsibilities:</article>- Convert .psd and .ai files to HTML/CSS/JS with responsive support.
                     </li>
                     <li>
-                      <article>Recognition and Gains:</article>- Given good
-                      recognition by leader in terms of Front-end. <br />
-                      -I was accepted as a full-time employee after my
-                      internship, but I turned it down for some personal
-                      reasons.
+                      <article>Recognition and Gains:</article>- Highly recognized in Front-end development, with strong skills in implementing website animations and effects.<br />
+                      - I was offered a full-time position after my internship, but I declined it due to some personal reasons.
                     </li>
                   </ul>
                 </div>
@@ -119,16 +115,12 @@ const Experience = (props: ExperienceProps) => {
                   </section>
                   <ul>
                     <li>
-                      <article>Main responsibilities:</article>- Plan an idea
-                      and design Vinasay Website with Illustrator. <br />-
-                      Convert .psd files, .ai files to HTML/CSS/JS, responsive.
+                      <article>Main responsibilities:</article>- Plan the idea and design the Vinasay website using Illustrator. <br />-
+                      Convert .psd and .ai files to HTML/CSS/JS with responsive support. <br />
+                      - Collaborate with the Back-end team to complete the Vinasay website.
                     </li>
                     <li>
-                      <article>Recognition and Gains:</article>- Given good
-                      recognition by leader in terms of Front-end. <br />
-                      -I was accepted as a full-time employee after my
-                      internship, but I turned it down for some personal
-                      reasons.
+                      <article>Recognition and Gains:</article>- Has a good website design mindset and is enthusiastic in supporting the team during the development of the Vinasay website.   
                     </li>
                   </ul>
                 </div>
