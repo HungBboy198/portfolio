@@ -34,15 +34,10 @@ const About = (props: aboutProps) => {
             <div className={styles['about__right--title']}>About Me</div>
             <div className={styles['about__right--content']}>
               <div>
-                Good day, everyone! I'm Tran Van Hung, I'm 26 years old and I'm
-                from DakLak. I'm Junior Front-end Developer. I have 2 year
-                experience of working as a web developer at HCMC.
+                Good day, everyone! I am capable of working independently as well as collaborating effectively in a team, and I always take the initiative to learn new technologies with the goal of developing high-quality, sustainable products.
               </div>
               <div>
-                I'm often praised for my creativity and independent working
-                skills. I always put my heart and soul into every single website
-                that I develop. I guess that's all I have to share about myself.
-                Thank you for reading!
+                 I am capable of working independently as well as collaborating effectively in a team, and I always take the initiative to learn new technologies with the goal of developing high-quality, sustainable products.
               </div>
             </div>
           </section>
