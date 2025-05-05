@@ -158,11 +158,9 @@ const Experience = (props: ExperienceProps) => {
                   </section>
                   <ul>
                     <li>
-                      <article>Main responsibilities:</article>- In change
-                      Front-End Medpro Backoffice (Manager Medpro website,
+                      <article>Main responsibilities:</article>- Responsible for updating the Front-End of Medpro Backoffice (Manager Medpro website,
                       Medpro App)
-                      <br /> - Update and add new features in the web
-                      application (
+                      <br /> - Update and add new features to the web application a(
                       <a
                         href='https://medpro.vn'
                         target='_blank'
@@ -190,12 +188,11 @@ const Experience = (props: ExperienceProps) => {
                         UMC Website
                       </a>
                       , Medpro CSKH , Medpro Backoffice ).
-                      <br />- Convert figma files to NextJS, RESTful API, Build
+                      <br />- Convert Figma files to React.js and Next.js with responsive support, RESTful API, Build
                       Medpro Backoffice testing, Build Medpro testing...
                     </li>
                     <li>
-                      <article>Recognition and Gains:</article>- Given good
-                      recognition by leader in terms of Front-end.
+                      <article>Recognition and Gains:</article>- Highly appreciated for website UI development mindset. Actively supports the team in the Front-end area.
                     </li>
                   </ul>
                 </div>
@@ -216,13 +213,12 @@ const Experience = (props: ExperienceProps) => {
                   </section>
                   <span>At home.</span>
                   <section className='experience__right--content_item-right_work'>
-                    Junior Front-end.(8/2023 - Present)
+                    Freelancer Front-end.(8/2023 - Present)
                   </section>
                   <ul>
                     <li>
                       <article>Main responsibilities:</article>
-                      - Convert figma files to ReactJS, NextJS <br />- Edit and
-                      upgrade the website as required
+                      - Convert Figma files to ReactJS, NextJS and responsive support. <br />- Edit and upgrade the website according to the client's requirements.
                     </li>
                   </ul>
                 </div>
