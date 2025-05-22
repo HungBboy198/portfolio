@@ -34,7 +34,7 @@ const About = (props: aboutProps) => {
             <div className={styles['about__right--title']}>About Me</div>
             <div className={styles['about__right--content']}>
               <div>
-                Good day, everyone! My name is Tran Van Hung, 27 years old, with over 2 years of experience in web development using ReactJS/NextJS. In addition, I have some knowledge of Node.js, Firebase, and databases such as MySQL and PostgreSQL.
+                Good day, everyone! My name is Tran Van Hung, 26 years old, with over 2 years of experience in web development using ReactJS/NextJS. In addition, I have some knowledge of Firebase, and databases such as MySQL and PostgreSQL.
 </div>
               <div>
                  During my time working in this field, I have been involved in building and optimizing many modern, interactive user interfaces, ensuring both performance and high-quality user experience. I am capable of working independently as well as collaborating effectively in a team, and I always take the initiative to learn new technologies with the goal of developing high-quality, sustainable products.
