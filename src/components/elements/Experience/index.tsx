@@ -71,11 +71,16 @@ const Experience = (props: ExperienceProps) => {
                   </section>
                   <ul>
                     <li>
-                      <article>Main responsibilities:</article>- Convert .psd and .ai files to HTML/CSS/JS with responsive support.
+                      <article>Main responsibilities:</article>- Convert .psd
+                      and .ai files to HTML/CSS/JS with responsive support.
                     </li>
                     <li>
-                      <article>Recognition and Gains:</article>- Highly recognized in Front-end development, with strong skills in implementing website animations and effects.<br />
-                      - I was offered a full-time position after my internship, but I declined it due to some personal reasons.
+                      <article>Recognition and Gains:</article>- Highly
+                      recognized in Front-end development, with strong skills in
+                      implementing website animations and effects.
+                      <br />- I was offered a full-time position after my
+                      internship, but I declined it due to some personal
+                      reasons.
                     </li>
                   </ul>
                 </div>
@@ -115,12 +120,16 @@ const Experience = (props: ExperienceProps) => {
                   </section>
                   <ul>
                     <li>
-                      <article>Main responsibilities:</article>- Plan the idea and design the Vinasay website using Illustrator. <br />-
-                      Convert .psd and .ai files to HTML/CSS/JS with responsive support. <br />
-                      - Collaborate with the Back-end team to complete the Vinasay website.
+                      <article>Main responsibilities:</article>- Plan the idea
+                      and design the Vinasay website using Illustrator. <br />-
+                      Convert .psd and .ai files to HTML/CSS/JS with responsive
+                      support. <br />- Collaborate with the Back-end team to
+                      complete the Vinasay website.
                     </li>
                     <li>
-                      <article>Recognition and Gains:</article>- Has a good website design mindset and is enthusiastic in supporting the team during the development of the Vinasay website.   
+                      <article>Recognition and Gains:</article>- Has a good
+                      website design mindset and is enthusiastic in supporting
+                      the team during the development of the Vinasay website.
                     </li>
                   </ul>
                 </div>
@@ -154,13 +163,15 @@ const Experience = (props: ExperienceProps) => {
                   </section>
                   <span>74 Thành Thái, 12 Ward, Dist 10, HCMC, VietNam.</span>
                   <section className='experience__right--content_item-right_work'>
-                    Junior Front-end.(6/2022 - 8/2023)
+                    Junior Front-end.(6/2022 - 1/2024)
                   </section>
                   <ul>
                     <li>
-                      <article>Main responsibilities:</article>- Responsible for updating the Front-End of Medpro Backoffice (Manager Medpro website,
-                      Medpro App)
-                      <br /> - Update and add new features to the web application a(
+                      <article>Main responsibilities:</article>- Responsible for
+                      updating the Front-End of Medpro Backoffice (Manager
+                      Medpro website, Medpro App)
+                      <br /> - Update and add new features to the web
+                      application a(
                       <a
                         href='https://medpro.vn'
                         target='_blank'
@@ -188,11 +199,14 @@ const Experience = (props: ExperienceProps) => {
                         UMC Website
                       </a>
                       , Medpro CSKH , Medpro Backoffice ).
-                      <br />- Convert Figma files to React.js and Next.js with responsive support, RESTful API, Build
-                      Medpro Backoffice testing, Build Medpro testing...
+                      <br />- Convert Figma files to React.js and Next.js with
+                      responsive support, RESTful API, Build Medpro Backoffice
+                      testing, Build Medpro testing...
                     </li>
                     <li>
-                      <article>Recognition and Gains:</article>- Highly appreciated for website UI development mindset. Actively supports the team in the Front-end area.
+                      <article>Recognition and Gains:</article>- Highly
+                      appreciated for website UI development mindset. Actively
+                      supports the team in the Front-end area.
                     </li>
                   </ul>
                 </div>
@@ -213,12 +227,14 @@ const Experience = (props: ExperienceProps) => {
                   </section>
                   <span>At home.</span>
                   <section className='experience__right--content_item-right_work'>
-                    Freelancer Front-end.(8/2023 - Present)
+                    Freelancer Front-end.(1/2024 - Present)
                   </section>
                   <ul>
                     <li>
                       <article>Main responsibilities:</article>
-                      - Convert Figma files to ReactJS, NextJS and responsive support. <br />- Edit and upgrade the website according to the client's requirements.
+                      - Convert Figma files to ReactJS, NextJS and responsive
+                      support. <br />- Edit and upgrade the website according to
+                      the client's requirements.
                     </li>
                   </ul>
                 </div>
