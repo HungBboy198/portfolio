@@ -43,10 +43,9 @@ const About = (props: aboutProps) => {
                 During my time working in this field, I have been involved in
                 building and optimizing many modern, interactive user
                 interfaces, ensuring both performance and high-quality user
-                experience. I am capable of working independently as well as
-                collaborating effectively in a team, and I always take the
-                initiative to learn new technologies with the goal of developing
-                high-quality, sustainable products.
+                experience. Additionally, leveraging interaction with AI tools
+                has improved my work efficiency and enabled me to gain more
+                knowledge from AI.
               </div>
             </div>
           </section>

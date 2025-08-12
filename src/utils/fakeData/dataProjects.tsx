@@ -9,9 +9,10 @@ import project12 from './images/project-12.jpg'
 import medpro1 from './images/medpro-1.png'
 import medpro2 from './images/medpro-v2.png'
 import medprobo from './images/medpro-bo.png'
+import Kai from './images/kai.jpg'
 import umc from './images/umc.png'
 import cskh from './images/cskh.png'
-import FL3 from './images/fl3.jpg'
+import FL3 from './images/fl3.png'
 import FL2 from './images/fl2.png'
 import FL1 from './images/fl1.png'
 import FL0 from './images/FL0.png'
@@ -35,7 +36,8 @@ export const dataProjects = [
   {
     id: 'md1',
     name: 'Medpro',
-    isProject: 'Project while junioer at Medpro company',
+    isProject:
+      'Project completed during my tenure as a Junior at the Medpro company.',
     image: medpro1,
     teamSize: 5,
     technologies: 'NextJS, NX, Ant Design, Less, Redux-Toolkit, lodash...',
@@ -48,7 +50,8 @@ export const dataProjects = [
   {
     id: 'md2',
     name: 'Medpro Version 2',
-    isProject: 'Project while junioer at Medpro company',
+    isProject:
+      'Project completed during my tenure as a Junior at the Medpro company.',
     image: medpro2,
     teamSize: 5,
     technologies: 'NextJS, NX, Ant Design, Less, Redux-Toolkit, lodash...',
@@ -58,6 +61,20 @@ export const dataProjects = [
     link: 'https://medpro.vn',
     newPrj: true
   },
+  {
+    id: 'kai',
+    name: 'Kaito',
+    isProject: 'Freelancer projects',
+    image: Kai,
+    teamSize: 2,
+    technologies: 'ReactJS, Ant Design, Sass, recharts,...',
+    suchAs:
+      'Set up the front-end project, created data charts with Recharts, responsive mobile and customized the UI based on client requirements.',
+    // video: 'MVnYCse-WPw',
+    link: 'https://kaito-self.vercel.app/',
+    newPrj: true
+  },
+
   {
     id: 'freelance',
     name: 'Freelancer projects',
@@ -69,6 +86,12 @@ export const dataProjects = [
         image: FL0
       },
       {
+        id: 'id5',
+        name: 'Monster-fight',
+        link: 'https://monster-fight-snowy.vercel.app',
+        image: FL3
+      },
+      {
         id: 'id2',
         name: 'Vendetta',
         link: 'https://vendetta-sooty.vercel.app',
@@ -77,25 +100,20 @@ export const dataProjects = [
 
       {
         id: 'id3',
-        name: 'Lido',
+        name: 'Lido (home page)',
         link: 'https://lido-ruddy.vercel.app',
         image: FL1
       },
       {
         id: 'id4',
-        name: 'Sahara',
+        name: 'Sahara (home page)',
         link: 'https://sahara-five.vercel.app',
         image: FL2
       },
-      {
-        id: 'id5',
-        name: 'Ventures',
-        link: 'https://ventures-ten.vercel.app',
-        image: FL3
-      },
+
       {
         id: 'id6',
-        name: 'Gelios',
+        name: 'Gelios (home page)',
         link: 'https://gelios-mu.vercel.app',
         image: FL02
       }
@@ -106,7 +124,8 @@ export const dataProjects = [
   {
     id: 'md3',
     name: 'Medpro backoffice',
-    isProject: 'Project while junioer at Medpro company',
+    isProject:
+      'Project completed during my tenure as a Junior at the Medpro company.',
     image: medprobo,
     teamSize: 5,
     technologies: 'ReactJs, NX, Ant Design, Less, Redux-Toolkit, lodash...',
@@ -118,7 +137,8 @@ export const dataProjects = [
   {
     id: 'md4',
     name: 'Medpro CSKH',
-    isProject: 'Project while junioer at Medpro company',
+    isProject:
+      'Project completed during my tenure as a Junior at the Medpro company.',
     image: cskh,
     teamSize: 7,
     technologies: 'ReactJs, Ant Design, Less, Redux, lodash...',
@@ -131,7 +151,8 @@ export const dataProjects = [
   {
     id: 'md5',
     name: 'Bệnh viện Đại học Y Dược TP.HCM',
-    isProject: 'Project while junioer at Medpro company',
+    isProject:
+      'Project completed during my tenure as a Junior at the Medpro company.',
     image: umc,
     teamSize: 7,
     technologies: 'NextJS, Ant Design, Less',
@@ -144,7 +165,8 @@ export const dataProjects = [
   {
     id: '2',
     name: 'Idochine',
-    isProject: 'Project while interns at Comma Media company',
+    isProject:
+      'Project completed during my tenure as a Intern at the Comma Media company.',
     image: project3,
     teamSize: 2,
     technologies: 'HTML/SCSS/JS, Bootstrap, JQuery, Gsap.',
@@ -155,7 +177,8 @@ export const dataProjects = [
   {
     id: '3',
     name: 'Vinasay',
-    isProject: 'Project while fresher at Comma Media company',
+    isProject:
+      'Project completed during my tenure as a Fresher at the Vinasay company.',
     image: project1,
     teamSize: 4,
     technologies: 'HTML/CSS/JS, Bootstrap, JQuery, Gsap, Php.',
@@ -165,7 +188,8 @@ export const dataProjects = [
   {
     id: '4',
     name: 'Comma Media',
-    isProject: 'Project while interns at Comma Media company',
+    isProject:
+      'Project completed during my tenure as a Intern at the Comma Media company.',
     image: project5,
     teamSize: 3,
     technologies: 'HTML/SCSS/JS, Bootstrap, JQuery, Gsap.',

@@ -120,6 +120,21 @@
         }
       }
     }
+    &__tools {
+      margin-top: 2rem;
+      &--title {
+        font-size: 1.5rem;
+        color: var(--title-color);
+        font-weight: 600;
+        margin-bottom: 0.3rem;
+      }
+      &--content {
+        > span {
+          font-weight: 600;
+          color: var(--link-color);
+        }
+      }
+    }
   }
   &__right {
     width: 35%;
@@ -174,6 +189,21 @@
   }
 }
 
+.knowledge__left__tools--title {
+  transition: opacity 0.5s 1.4s ease, transform 0.5s 1.4s ease;
+}
+.knowledge__left__tools--content {
+  &:nth-child(2) {
+    transition: opacity 0.5s 1.6s ease, transform 0.5s 1.6s ease;
+  }
+  &:nth-child(3) {
+    transition: opacity 0.5s 1.8s ease, transform 0.5s 1.8s ease;
+  }
+  &:nth-child(4) {
+    transition: opacity 0.5s 2s ease, transform 0.5s 2s ease;
+  }
+}
+
 .knowledge__right {
   img {
     transition: all 1s 0.3s ease;
@@ -181,7 +211,9 @@
 }
 .hidden.knowledge {
   .knowledge__left--title,
-  .knowledge__left--content_item {
+  .knowledge__left--content_item,
+  .knowledge__left__tools--title,
+  .knowledge__left__tools--content {
     transform: translateY(40px);
     opacity: 0;
   }

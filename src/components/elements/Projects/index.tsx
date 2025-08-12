@@ -57,7 +57,7 @@ const Projects = (props: ProjectsProps) => {
               className={cx(styles['projects__content-slider'], 'mySwiper')}
             >
               {dataProjects?.map((item: any, index: number) =>
-                index === 2 ? (
+                index === 3 ? (
                   <SwiperSlide key={index}>
                     <div
                       className={cx(

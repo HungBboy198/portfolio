@@ -4,7 +4,7 @@ import styles from './styles.module.scss'
 import { elementPublicProps } from '../../Shape/Element/common/interface'
 import footerImage from '../../../assets/images/header-footer-bg.svg'
 import platform from '../../../assets/images/platform-1.svg'
-import CV from '../../../assets/images/TRAN-VAN-HUNG-FRONT-END.pdf'
+import CV from '../../../assets/images/RESUME-TRAN-VAN-HUNG.pdf'
 import cx from 'classnames'
 import { Col, Row } from 'antd'
 

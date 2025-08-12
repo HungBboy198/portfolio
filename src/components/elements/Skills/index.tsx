@@ -54,7 +54,42 @@ const Skills = (props: SkillsProps) => {
               NextJS
             </div>
           </div>
+          <div className={styles['knowledge__left__tools']}>
+            <div
+              className={cx(
+                styles['knowledge__left__tools--title'],
+                !active && styles['hidden']
+              )}
+            >
+              Orther
+            </div>
+            <div
+              className={cx(
+                styles['knowledge__left__tools--content'],
+                !active && styles['hidden']
+              )}
+            >
+              <span>Tools & Version Control</span>: Lark, Git, Github, Postman.
+            </div>
+            <div
+              className={cx(
+                styles['knowledge__left__tools--content'],
+                !active && styles['hidden']
+              )}
+            >
+              <span>Design tools</span>: Photoshop, Figma, Illustrator.
+            </div>
+            <div
+              className={cx(
+                styles['knowledge__left__tools--content'],
+                !active && styles['hidden']
+              )}
+            >
+              <span>AI tool support</span>: ChatGPT, Gemini
+            </div>
+          </div>
         </div>
+
         <div className={styles['knowledge__right']}>
           <img src={plance2} alt='plance ' />
         </div>
