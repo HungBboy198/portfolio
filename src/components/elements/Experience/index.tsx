@@ -71,8 +71,9 @@ const Experience = (props: ExperienceProps) => {
                   </section>
                   <ul>
                     <li>
-                      <article>Main responsibilities:</article>- Convert .psd
-                      and .ai files to HTML/CSS/JS with responsive support.
+                      <article>Main responsibilities:</article>- - Developed
+                      responsive web using HTML, CSS, Javascript. Collaborated
+                      with UI/UX designers to enhance user experience.
                     </li>
                     <li>
                       <article>Recognition and Gains:</article>- Highly
@@ -116,15 +117,15 @@ const Experience = (props: ExperienceProps) => {
                     171 Nguyen Thi Thap, Tan Phu Ward, Dist 7, HCMC, VietNam.
                   </span>
                   <section className='experience__right--content_item-right_work'>
-                    Fresher Front-end.(5/2020 - 10/2020)
+                    Fresher Front-end.(03/2020 - 10/2020)
                   </section>
                   <ul>
                     <li>
                       <article>Main responsibilities:</article>- Plan the idea
                       and design the Vinasay website using Illustrator. <br />-
-                      Convert .psd and .ai files to HTML/CSS/JS with responsive
-                      support. <br />- Collaborate with the Back-end team to
-                      complete the Vinasay website.
+                      Developed responsive web using HTML, CSS Javascript.
+                      <br />- Collaborate with the Back-end team to complete the
+                      Vinasay website.
                     </li>
                     <li>
                       <article>Recognition and Gains:</article>- Has a good
@@ -163,12 +164,12 @@ const Experience = (props: ExperienceProps) => {
                   </section>
                   <span>74 Thành Thái, 12 Ward, Dist 10, HCMC, VietNam.</span>
                   <section className='experience__right--content_item-right_work'>
-                    Junior Front-end.(6/2022 - 1/2024)
+                    Junior Front-end.(06/2022 - 01/2024)
                   </section>
                   <ul>
                     <li>
-                      <article>Main responsibilities:</article>- Responsible for
-                      updating the Front-End of Medpro Backoffice (Manager
+                      <article>Main responsibilities:</article>- - Responsible
+                      for updating the FrontEnd of Medpro Backoffice (Manager
                       Medpro website, Medpro App)
                       <br /> - Update and add new features to the web
                       application a(
@@ -227,7 +228,7 @@ const Experience = (props: ExperienceProps) => {
                   </section>
                   <span>At home.</span>
                   <section className='experience__right--content_item-right_work'>
-                    Freelancer Front-end.(1/2024 - Present)
+                    Freelancer Front-end.(07/2024 - Present)
                   </section>
                   <ul>
                     <li>
