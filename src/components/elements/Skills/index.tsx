@@ -47,8 +47,7 @@ const Skills = (props: SkillsProps) => {
               JQuery
             </div>
             <div className={styles['knowledge__left--content_item']}>
-              ReacJs <br />
-              (Hook)
+              ReacJs
             </div>
             <div className={styles['knowledge__left--content_item']}>
               NextJS
@@ -69,7 +68,8 @@ const Skills = (props: SkillsProps) => {
                 !active && styles['hidden']
               )}
             >
-              <span>Tools & Version Control</span>: Lark, Git, Github, Postman.
+              <span>Tools & Version Control</span>: Lark, Jira, Git, Github,
+              GitLab, Postman.
             </div>
             <div
               className={cx(
