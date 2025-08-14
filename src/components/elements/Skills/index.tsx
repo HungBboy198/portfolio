@@ -69,7 +69,7 @@ const Skills = (props: SkillsProps) => {
               )}
             >
               <span>Tools & Version Control</span>: Lark, Jira, Git, Github,
-              GitLab, Postman.
+              GitLab, Postman, Vercel.
             </div>
             <div
               className={cx(
