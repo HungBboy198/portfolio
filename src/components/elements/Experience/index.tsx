@@ -71,14 +71,14 @@ const Experience = (props: ExperienceProps) => {
                   </section>
                   <ul>
                     <li>
-                      <article>Main responsibilities:</article>- - Developed
-                      responsive web using HTML, CSS, Javascript. Collaborated
-                      with UI/UX designers to enhance user experience.
+                      <article>Main responsibilities:</article>- Built
+                      responsive website layouts with HTML, CSS, JavaScript,
+                      ensuring cross-device compatibility.
                     </li>
                     <li>
-                      <article>Recognition and Gains:</article>- Highly
-                      recognized in Front-end development, with strong skills in
-                      implementing website animations and effects.
+                      <article>Recognition and Gains:</article>- Praised for
+                      implementing smooth animations and effects that enhanced
+                      user engagement.
                       <br />- I was offered a full-time position after my
                       internship, but I declined it due to some personal
                       reasons.
@@ -88,7 +88,12 @@ const Experience = (props: ExperienceProps) => {
               </div>
             </div>
             <div className={styles['experience__right--content_item']}>
-              <div className={styles['experience__right--content_item-left']}>
+              <div
+                className={cx(
+                  styles['experience__right--content_item-left'],
+                  styles['left-2']
+                )}
+              >
                 <svg
                   className={cx(styles['line-1'], styles['svg2'])}
                   xmlns='http://www.w3.org/2000/svg'
@@ -121,16 +126,10 @@ const Experience = (props: ExperienceProps) => {
                   </section>
                   <ul>
                     <li>
-                      <article>Main responsibilities:</article>- Plan the idea
-                      and design the Vinasay website using Illustrator. <br />-
-                      Developed responsive web using HTML, CSS Javascript.
-                      <br />- Collaborate with the Back-end team to complete the
-                      Vinasay website.
-                    </li>
-                    <li>
-                      <article>Recognition and Gains:</article>- Has a good
-                      website design mindset and is enthusiastic in supporting
-                      the team during the development of the Vinasay website.
+                      <article>Main responsibilities:</article>- Designed and
+                      developed the company website using HTML, CSS, JavaScript.
+                      <br />- Collaborated with backend team to deliver a stable
+                      platform serving 1,000+ users/month.
                     </li>
                   </ul>
                 </div>
@@ -168,11 +167,8 @@ const Experience = (props: ExperienceProps) => {
                   </section>
                   <ul>
                     <li>
-                      <article>Main responsibilities:</article>- - Responsible
-                      for updating the FrontEnd of Medpro Backoffice (Manager
-                      Medpro website, Medpro App)
-                      <br /> - Update and add new features to the web
-                      application a(
+                      <article>Main responsibilities:</article>- Developed and
+                      optimized multiple applications (
                       <a
                         href='https://medpro.vn'
                         target='_blank'
@@ -183,7 +179,7 @@ const Experience = (props: ExperienceProps) => {
                       </a>
                       ,{' '}
                       <a
-                        href='https://allnew-v2.medpro.com.vn'
+                        href='https://medpro.com.vn'
                         target='_blank'
                         rel='noreferrer'
                         className='cursor_small'
@@ -199,15 +195,14 @@ const Experience = (props: ExperienceProps) => {
                       >
                         UMC Website
                       </a>
-                      , Medpro CSKH , Medpro Backoffice ).
-                      <br />- Convert Figma files to React.js and Next.js with
-                      responsive support, RESTful API, Build Medpro Backoffice
-                      testing, Build Medpro testing...
-                    </li>
-                    <li>
-                      <article>Recognition and Gains:</article>- Highly
-                      appreciated for website UI development mindset. Actively
-                      supports the team in the Front-end area.
+                      , Medpro CSKH , Medpro Backoffice ) with ReactJS/NextJS.
+                      Helped make the appointment booking and patient management
+                      process faster and smoother.
+                      <br />- Participated in the deployment and development of
+                      the Medpro-nx project, enabling the management of a large
+                      codebase with multiple applications (Medpro V2, Medpro
+                      CSKH, Medpro Backoffice) and libraries within a single
+                      repository.
                     </li>
                   </ul>
                 </div>
@@ -232,10 +227,10 @@ const Experience = (props: ExperienceProps) => {
                   </section>
                   <ul>
                     <li>
-                      <article>Main responsibilities:</article>
-                      - Convert Figma files to ReactJS, NextJS and responsive
-                      support. <br />- Edit and upgrade the website according to
-                      the client's requirements.
+                      <article>Main responsibilities:</article>- Built Front-End
+                      websites with ReactJS/NextJS based on client designs and
+                      requirements, delivered 10+ freelance projects. View
+                      Portfolio: https://resume-tvh.vercel.app
                     </li>
                   </ul>
                 </div>

@@ -68,8 +68,8 @@ const Skills = (props: SkillsProps) => {
                 !active && styles['hidden']
               )}
             >
-              <span>Tools & Version Control</span>: Lark, Jira, Git, Github,
-              GitLab, Postman, Vercel.
+              <span>Tools</span>: Lark, Jira, Git, Github, GitLab, Postman,
+              Vercel.
             </div>
             <div
               className={cx(
@@ -78,14 +78,6 @@ const Skills = (props: SkillsProps) => {
               )}
             >
               <span>Design tools</span>: Photoshop, Figma, Illustrator.
-            </div>
-            <div
-              className={cx(
-                styles['knowledge__left__tools--content'],
-                !active && styles['hidden']
-              )}
-            >
-              <span>AI tool support</span>: ChatGPT, Gemini
             </div>
           </div>
         </div>

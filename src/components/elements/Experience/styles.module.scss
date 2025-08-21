@@ -17,6 +17,7 @@
     @include mobile {
       width: 0%;
     }
+
     &--image {
       width: 60vw;
       transform: translate(-10vw, 0vh);
@@ -68,6 +69,12 @@
           top: 0%;
           height: 100%;
           overflow-y: hidden;
+
+          &.left-2 {
+            transform-origin: center bottom;
+            transform: translate(5px, -2px) scaleX(1.5);
+            height: calc(100% + 4px);
+          }
           .line-1 {
             height: 100%;
             .cls-1 {

@@ -34,23 +34,12 @@ const About = (props: aboutProps) => {
             <div className={styles['about__right--title']}>About Me</div>
             <div className={styles['about__right--content']}>
               <div>
-                Good day, everyone! My name is Tran Van Hung, 27 years old, I am
-                a passionate Front-End Developer with 4 years of experience in
-                building modern, responsive, and user-friendly web interfaces,
-                including 2 years of expertise in ReactJS, NextJS. My skill set
-                includes crafting clean and maintainable code, optimizing
-                performance, and integrating RESTful APIs to deliver dynamic and
-                interactive user experiences. I am proficient in HTML, CSS,
-                JavaScript, and modern frameworks, with a strong eye for detail
-                and a commitment to creating seamless UI/UX.
-              </div>
-              <div>
-                During my time working in this field, I have been involved in
-                building and optimizing many modern, interactive user
-                interfaces, ensuring both performance and high-quality user
-                experience. Additionally, leveraging interaction with AI tools
-                has improved my work efficiency and enabled me to gain more
-                knowledge from AI.
+                Front-End Developer with 4 years of experience, including 2
+                years specializing in ReactJS/NextJS. Skilled in building
+                modern, responsive interfaces, optimizing performance, and
+                integrating RESTful APIs for mid-to-large scale products. Strong
+                focus on delivering seamless UI/UX and driving measurable
+                business impact.
               </div>
             </div>
           </section>
