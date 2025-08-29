@@ -34,12 +34,12 @@ const About = (props: aboutProps) => {
             <div className={styles['about__right--title']}>About Me</div>
             <div className={styles['about__right--content']}>
               <div>
-                Front-End Developer with 4 years of experience, including 2
-                years specializing in ReactJS/NextJS. Skilled in building
-                modern, responsive interfaces, optimizing performance, and
-                integrating RESTful APIs for mid-to-large scale products. Strong
-                focus on delivering seamless UI/UX and driving measurable
-                business impact.
+                Frontend Developer with 4 years of experience, including 2 years
+                specializing in ReactJS/NextJS. Strong expertise in building
+                high performance, scalable, and user centric interfaces for
+                healthcare, SaaS, and e-commerce platforms. Proven ability to
+                optimize performance, streamline user journeys, and deliver
+                measurable Business results.
               </div>
             </div>
           </section>
